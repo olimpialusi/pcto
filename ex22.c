@@ -12,7 +12,7 @@ void calcolaCubo(){
 }
 
 int main(){
-    calcolaCubo();
+    calcolaCubo(); // senza la funzione main, la funzione void non viene letta. il programma legge prima main e poi void.
     calcolaCubo();
     calcolaCubo();
     calcolaCubo();
