@@ -6,7 +6,7 @@ int main(){
 
     printf("inserisci un testo: ");
     printf("%s \n", stringa);
-    scanf("%s", stringa);
+    scanf("%[^\t\n]s", stringa);
     i = 0;
     while (stringa[i] != '\0'){
         if (97 <= stringa[i] && stringa[i] <=122){
