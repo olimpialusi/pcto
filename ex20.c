@@ -15,22 +15,12 @@ int main(){
     if(a + b > c){
 
         if(b + c > a){
-          }
+            printf("I lati formano un triangolo \n");
+        } 
         else {
             printf("I lati non formano un triangolo \n");
         }
-        
-            if(c + a > b){
-                printf("I lati formano un triangolo \n");
-            }
-
-            else {
-                printf("I lati non formano un triangolo \n");
-            }
-      
-    }
-
-    else{
+    } else {
         printf("I lati non formano un triangolo \n");
     }
 
@@ -44,6 +34,6 @@ int main(){
     else {
         printf ("il triangolo è scaleno \n");
     }
-return (0);
+    return (0);
 
 }
